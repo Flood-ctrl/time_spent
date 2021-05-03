@@ -23,6 +23,6 @@ def sleepFucn():
         spent_time = spent_time - start_time
         spent_time = time.strftime('%H:%M:%S', time.gmtime(spent_time))
         function_name = sys._getframe().f_code.co_name
-        print (f"Time spents in {function_name} : {spent_time}")
+        print (f"Time spent in {function_name} : {spent_time}")
 
 sleepFucn()
