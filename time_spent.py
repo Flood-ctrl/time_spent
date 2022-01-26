@@ -34,6 +34,6 @@ def sleepFucn():
         spent_time = spent_time - start_time
         spent_time = time.strftime('%H:%M:%S', time.gmtime(spent_time))
         function_name = sys._getframe().f_code.co_name
-        print (f"{bcolors.WARNING}Time spent in {function_name} : {spent_time}{bcolors.ENDC}")
+        print (f"{bcolors.OKGREEN}Time spent in {function_name} : {spent_time}{bcolors.ENDC}")
 
 sleepFucn()
